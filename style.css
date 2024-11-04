@@ -9,3 +9,12 @@ h1{
 
     background-color: aqua;
 }
+#katita {
+    width: 250px;
+    height: 250px;
+}
+.containerKatita {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
