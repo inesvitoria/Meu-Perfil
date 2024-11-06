@@ -7,7 +7,6 @@ h1{
     justify-content: center;
     align-items: center;
 
-    background-color: aqua;
 }
 #katita {
     width: 250px;
@@ -15,6 +14,5 @@ h1{
 }
 .containerKatita {
     display: flex;
-    justify-content: space-between;
-    background-color: blueviolet;
+    justify-content: around-;
 }
