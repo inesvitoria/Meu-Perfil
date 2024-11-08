@@ -1,18 +1,29 @@
 body{
     background-color: #c1c1c1;
 }
+ h1{
+    font-size: 2.0em;
+    text-align: center; /* Alinha o texto à esquerda */
+    margin: 0;
+    padding: 0 30px; /* Espaçamento opcional */
 
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-#katita {
-    width: 250px;
-    height: 250px;
-}
+ }
 .containerKatita {
     display: flex;
-    justify-content: around-;
+    justify-content: space-between; /* Coloca a imagem de um lado e o texto do outro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 10px;
 }
+
+.containerKatita img {
+    max-width: 15%; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.containerKatita h2 {
+    font-size: 1.5em;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0;
+    padding: 0 10px; /* Espaçamento opcional */
+}
+
